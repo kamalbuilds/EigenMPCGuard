@@ -23,6 +23,8 @@ By leveraging EigenLayer's decentralized network of TEE committees, we can build
 * The decentralized TEE committee ensures that the MPC computation is secure even if some committee members are compromised, as long as the threshold number of members remain honest.
 * The economic incentives and slashing mechanisms of EigenLayer provide an additional layer of security, as committee members have a financial stake in maintaining the integrity of the system.
 
+## Demo Video
+
 ## Proof of Concept
 
 As a proof of concept, we have build a secure multi-party auction system using the threshold cryptography AVS. In this system, bidders would submit their bids encrypted using the public key of the MPC AVS. The TEE committee would then perform the auction clearing computation without ever seeing the raw bid values, and return the auction result to the participants.
@@ -36,15 +38,15 @@ Automata Network offers various privacy-preserving services that we have integra
 - **AnyDAO**: A private governance service that allows investors to vote in DAOs with off-chain capabilities and low-cost.
 - **2FA Guru**: A two-factor authentication service that protects users and secures wallets.
 
-These services could be used to add robust privacy and security features to your decentralized application.
+These services are used to add robust privacy and security features to our decentralized application.
 
 ## Leveraging Automata Network's Modular Attestation Layer
 
 Automata Network's Modular Attestation Layer extends machine trust to Ethereum using application-specific rollups anchored in silicon-based hardware. This could be useful for POC is to establish an unbroken chain of trust across the Web3 stack.
 
-By integrating Automata Network's modular attestation capabilities, we are ensuring the integrity and security of your application's computations, even those performed off-chain.
+By integrating Automata Network's modular attestation capabilities, we are ensuring the integrity and security of our application's computations, even those performed off-chain.
 
-Overall, the key benefits of using Automata Network for POC are the enhanced privacy, security, and reliability provided by their threshold cryptography, privacy services, and modular attestation layer. These features help us to build a robust, decentralized application that addresses critical challenges in the Web3 ecosystem.
+Overall, the key benefits of using Automata Network for our POC are the enhanced privacy, security, and reliability provided by their threshold cryptography, privacy services, and modular attestation layer. These features help us to build a robust, decentralized application that addresses critical challenges in the Web3 ecosystem.
 
 By open-sourcing the core components of this proof of concept, we are contributing to the broader ecosystem of secure multi-party computation tools and encourage further innovation in this space.
 
